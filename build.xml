@@ -28,15 +28,7 @@
     <!-- ==================================================================
          ENVIRONMENTAL DETECTION
          ================================================================== -->
-    <!-- <condition property="git" value="git.cmd">
-        <os family="windows" />
-    </condition>
-    <condition property="git" value="git">
-        <not>
-            <os family="windows" />
-        </not>
-    </condition> -->
-     <property name="git" value="git"/>
+    <property name="git" value="git"/>
 
     <condition property="mvn" value="${MAVEN_HOME}/bin/mvn.cmd">
         <os family="windows" />
